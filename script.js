@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
 
 // WhatsApp order
 function orderViaWhatsApp(id,name){
-  const num="919876543210";
+  const num="919494383996";
   const msg=`Hello, I want to order ${name} (ID: ${id})`;
   window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`,"_blank");
 }
