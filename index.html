@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sri Bangle Collections - Elegant bangles for every occasion. Order via WhatsApp.">
+  <title>Sri Bangle Collections</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.webp" alt="Sri Bangle Collections Logo" loading="lazy">
+      <h1>SRI BANGLE COLLECTIONS</h1>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Sri Bangle Collections</h2>
+      <h4><i>Chic bangles for every special day</i></h4>
+
+      <h3 class="about-us">
+        <img src="images/bangle.svg" class="bangle-icon" alt="Glowing Bangle" loading="lazy">
+        About Us
+      </h3>
+      <p>Sri Bangle Collections is dedicated to bringing you exquisite, handcrafted bangles that blend traditional artistry with modern elegance.</p>
+      <p>We focus on quality, creativity, and personalized customer service to ensure every piece tells a unique story.</p>
+      <p>We offer an exceptional range of Kundan designs, and also create custom pieces tailored to your unique preferences.</p>
+      <p>Our collection extends beyond bangles to include a variety of Kundan ornaments such as earrings, hair bands, necklaces, and hair clips — each piece crafted to reflect grace, artistry, and luxury.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Our Bangle Collections</h2>
+
+    <!-- Product rows -->
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SBC1001.webp" type="image/webp">
+          <img src="images/SBC1001.webp" alt="Green Kundan Bangles" onclick="openGallery('gallery1', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <p>Elegant and vibrant green bangles, crafted with silky thread base, perfect for festive occasions.</p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <p class="product-id">Product ID: SBC1001</p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SBC1001', 'Green Kundan Bangles')">Order via WhatsApp</button>
+      </div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SBC1002.webp" type="image/webp">
+          <img src="images/SBC1002.webp" alt="Purple and Gold Bangles" onclick="openGallery('gallery2', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <p>Intricately crafted purple and gold bangles with shimmering stones and metallic accents.</p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <p class="product-id">Product ID: SBC1002</p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SBC1002', 'Purple and Gold Bangles')">Order via WhatsApp</button>
+      </div>
+    </div>
+
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SBC1003.webp" type="image/webp">
+          <img src="images/SBC1003.webp" alt="Orange Kundan Bangles" onclick="openGallery('gallery3', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <p>Modern and stylish Orange kundan bangles with intricate detailing for a bold yet elegant look.</p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <p class="product-id">Product ID: SBC1003</p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SBC1003', 'Orange Kundan Bangles')">Order via WhatsApp</button>
+      </div>
+    </div>
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SBC1004.webp" type="image/webp">
+          <img src="images/SBC1004.webp" alt="Aqua Green Kundan Floral Bangle Set" onclick="openGallery('gallery4', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <p>Soft aqua bangles highlighted with golden accents, paired with artisan-made floral Kundan bangles crafted from enamel-coated metal.</p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <p class="product-id">Product ID: SBC1004</p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SBC1004', 'Aqua Green Kundan Floral Bangle Set')">Order via WhatsApp</button>
+      </div>
+    </div>
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SBC1005.webp" type="image/webp">
+          <img src="images/SBC1005.webp" alt="Rich red and green handcrafted Bangles" onclick="openGallery('gallery5', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <p>Rich red and green handcrafted silk-thread bangles decorated with gold-tone leaf motifs, kundan stones, and intricate floral embellishments for a premium festive look. </p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <p class="product-id">Product ID: SBC1005</p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SBC1005', 'Red and green handcrafted silk-thread bangles')">Order via WhatsApp</button>
+      </div>
+    </div>
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SBC1006.webp" type="image/webp">
+          <img src="images/SBC1006.webp" alt="Royal blue silk thread bangles" onclick="openGallery('gallery6', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <p>Royal blue silk thread bangles adorned with gold-toned floral and geometric embellishments, offering a striking and elegant finish.</p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <p class="product-id">Product ID: SBC1006</p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SBC1006', 'Royal blue silk thread bangles')">Order via WhatsApp</button>
+      </div>
+    </div>
+    
+    <h2>Our Signature Collections</h2>
+    <div class="product-row">
+      <div class="product-image">
+        <picture>
+          <source srcset="images/SSC1001.webp" type="image/webp">
+          <img src="images/SSC1001.webp" alt="Our Signature Collections" onclick="openGallery('gallery11', event)" loading="lazy">
+        </picture>
+      </div>
+      <div class="product-info">
+        <h3>Collection Beyond Bangles</h3>
+        <p>Our collection extends beyond bangles to include a variety of Kundan ornaments such as earrings, hair bands, necklaces, and hair clips</p>
+        <p> — available in all sizes for both adults and kids.</p>
+        <p><I>Click the image to explore more</I></p>
+        <button class="wa-order" onclick="orderViaWhatsApp('SSC', 'Signature Collections')">Order via WhatsApp</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightboxes -->
+  <div id="gallery1" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery1')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SBC1001.webp" class="active" loading="lazy">
+      <img src="images/SBC1001_2.webp" loading="lazy">
+      <img src="images/SBC1001_3.webp" loading="lazy">
+      <img src="images/SBC1001_4.webp" loading="lazy">
+      <img src="images/SBC1001_5.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+
+  <div id="gallery2" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery2')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SBC1002.webp" class="active" loading="lazy">
+      <img src="images/SBC1002_2.webp" loading="lazy">
+      <img src="images/SBC1002_3.webp" loading="lazy">
+      <img src="images/SBC1002_4.webp" loading="lazy">
+      <img src="images/SBC1002_5.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+
+  <div id="gallery3" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery3')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SBC1003.webp" class="active" loading="lazy">
+      <img src="images/SBC1003_2.webp" loading="lazy">
+      <img src="images/SBC1003_3.webp" loading="lazy">
+      <img src="images/SBC1003_4.webp" loading="lazy">
+      <img src="images/SBC1003_5.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+  
+  <div id="gallery4" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery4')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SBC1004.webp" class="active" loading="lazy">
+      <img src="images/SBC1004_2.webp" loading="lazy">
+      <img src="images/SBC1004_3.webp" loading="lazy">
+      <img src="images/SBC1004_4.webp" loading="lazy">
+      <img src="images/SBC1004_5.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+  
+  <div id="gallery5" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery5')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SBC1005.webp" class="active" loading="lazy">
+      <img src="images/SBC1005_2.webp" loading="lazy">
+      <img src="images/SBC1005_3.webp" loading="lazy">
+      <img src="images/SBC1005_4.webp" loading="lazy">
+      <img src="images/SBC1005_5.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+  <div id="gallery6" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery6')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SBC1006.webp" class="active" loading="lazy">
+      <img src="images/SBC1006_2.webp" loading="lazy">
+      <img src="images/SBC1006_3.webp" loading="lazy">
+      <img src="images/SBC1006_4.webp" loading="lazy">
+      <img src="images/SBC1006_5.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+  <div id="gallery11" class="lightbox">
+    <span class="close" onclick="closeGallery('gallery11')">&times;</span>
+    <div class="lightbox-content">
+      <img src="images/SSC1001.webp" class="active" loading="lazy">
+      <img src="images/SSC1002.webp" loading="lazy">
+      <img src="images/SSC1003.webp" loading="lazy">
+      <img src="images/SSC1004.webp" loading="lazy">
+      <img src="images/SSC1005.webp" loading="lazy">
+    </div>
+    <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+    <a class="next" onclick="changeImage(1)">&#10095;</a>
+  </div>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>For custom orders, reach out via WhatsApp:</p>
+    <a href="https://wa.me/919876543210" target="_blank" class="wa-button">Chat on WhatsApp</a>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sri Bangle Collections. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
